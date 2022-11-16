@@ -53,10 +53,10 @@ export default function index() {
                 <Box
                     py={4}
                     display={{ md: "none" }}
-                    bgColor={"white"}
                     textAlign={"center"}
                     position={"absolute"}
                     w={"full"}
+                    className={"glassmorphism"}
                 >
                     <Stack as={"nav"} spacing={[4]}>
                         <NavItem title={"About"} link={"about"} />

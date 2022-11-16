@@ -12,6 +12,7 @@ import {
 import ImageHero from "../assets/images/image-hero.svg";
 import ImageBackground from "../assets/images/image-background1.png";
 import { ArrowRight } from "react-feather";
+import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
@@ -43,23 +44,25 @@ export default function Hero() {
                 >
                     Mobile development applications
                 </Text>
-                <Button
-                    bgColor={"black"}
-                    color={"white"}
-                    fontSize={{ base: "sm", md: "md" }}
-                    fontWeight={"medium"}
-                    width={44}
-                    _hover={{ bgColor: "black" }}
-                >
-                    Contact
-                    <Icon
-                        as={ArrowRight}
-                        ml={4}
-                        w={5}
-                        h={5}
-                        fontWeight={"light"}
-                    />
-                </Button>
+                <Link to="contacts" smooth={true}>
+                    <Button
+                        bgColor={"black"}
+                        color={"white"}
+                        fontSize={{ base: "sm", md: "md" }}
+                        fontWeight={"medium"}
+                        width={44}
+                        _hover={{ bgColor: "black" }}
+                    >
+                        Contact
+                        <Icon
+                            as={ArrowRight}
+                            ml={4}
+                            w={5}
+                            h={5}
+                            fontWeight={"light"}
+                        />
+                    </Button>
+                </Link>
             </Box>
             <Box
                 backgroundImage={ImageBackground}
