@@ -1,3 +1,15 @@
+## Screenshoot Results
+<h3><b>No. 1</b></h3>
+<img src="./screenshoot/no1.png" alt="nomor 1" />
+
+<h3><b>No. 2</b></h3>
+<img src="./screenshoot/no2.png" alt="nomor 2" />
+
+<h3><b>No. 3</b></h3>
+<img src="./screenshoot/no3.png" alt="nomor 3" />
+
+<br/><br/><br/>
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
